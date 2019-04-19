@@ -19,6 +19,11 @@ class Alert extends Component {
     };
   }
 
+  handleClose = () => {
+    this.setState({
+
+    })
+  }
 
 
   render() {
@@ -27,7 +32,7 @@ class Alert extends Component {
         <div>
           <div className={`aimi-alert--mask ${this.state.alertShow?'aimi-alert--hidden':''}`}></div>
           <div className="aimi-alert--wrap" role="dialog">
-            <div className={`aimi-alert-dialog ${this.props.className}`}>
+            <div className={`aimi-alert--dialog ${this.props.className}`}>
               <div className="aimi-alert--content">
                 <button className="aimi-alert--close"></button>
                 <div className="aimi-alert--body"></div>

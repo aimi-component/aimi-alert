@@ -22,14 +22,35 @@
 }
 
 .aimi-alert--dialog{
+    height: auto;
+    overflow: hidden;
+    width: 268px;
+    top: 30%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    border-radius: 4px;
+    background: #ffffff url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQwAAAAYCAIAAACA3lT9AAAAGXRFW…LKExbn2bzdbW3+SqHskapeKUSPnXTNVwpZ27/D4kuAAQDpNHwKsijMjAAAAABJRU5ErkJggg==) center top no-repeat;
     .aimi-alert-content{
+        position: relative;
+        width: 268px;
+        overflow: hidden;
+        height: auto;
         .aimi-alert--close{
+
         }
+
         .aimi-alert--body{
 
         }
         .aimi-alert--footer{
-
+            position: relative;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: end;
+            -ms-flex-pack: end;
+            justify-content: flex-end;
         }
     }
 }
