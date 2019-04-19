@@ -1,0 +1,35 @@
+.aimi-alert--mask{
+    position: fixed;
+    overflow: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    background-color: rgba(55, 55, 55, 0.6);
+}
+
+.aimi-alert--wrap{
+    position: absolute;
+    z-index: 2000;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    border: none;
+    outline: none;
+}
+
+.aimi-alert--dialog{
+    .aimi-alert-content{
+        .aimi-alert--close{
+        }
+        .aimi-alert--body{
+
+        }
+        .aimi-alert--footer{
+
+        }
+    }
+}
